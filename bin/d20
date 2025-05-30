@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Проверка что библиотека существует
+DICE_LIB="/usr/local/share/d20-cli/lib/dice.sh"
+if [[ ! -f "$DICE_LIB" ]]; then
+    echo "Ошибка: библиотека dice.sh не найдена по пути $DICE_LIB" >&2
+    echo "Попробуйте переустановить: sudo make uninstall && sudo make install" >&2
+    exit 1
+fi
+
+source "$DICE_LIB"
+validate_version "1.0.1" || exit 1
+
+main() {
+    local result
+    result=$(roll_d20)
+    show_animation
+    show_result "$result"
+}
+
+main "$@"

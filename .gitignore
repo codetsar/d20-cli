@@ -1,0 +1,5 @@
+*.cast
+*.swp
+*.swo
+.DS_Store
+/tmp/
