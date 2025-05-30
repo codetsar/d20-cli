@@ -2,8 +2,7 @@
 
 Профессиональный генератор бросков 20-гранного кубика (d20) для терминала с анимацией и статистикой. Написан на Bash с полным тестовым покрытием.
 
-![Пример работы](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5yZzFmZ3VtYzV6eW1qZGN5aGx6eWg0dWt5MGx6eGZ6eGZ6eGZ6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/example.gif)
-[![asciicast](https://asciinema.org/a/RktpNxJgnebySJFnHdRlEd13F.svg)(https://asciinema.org/a/RktpNxJgnebySJFnHdRlEd13F)
+[![asciicast](https://asciinema.org/a/RktpNxJgnebySJFnHdRlEd13F.svg)](https://asciinema.org/a/RktpNxJgnebySJFnHdRlEd13F)
 
 ## ✨ Особенности
 
